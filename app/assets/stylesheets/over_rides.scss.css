@@ -1,3 +1,129 @@
-label.right {
-	
+.main-header{
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+.small-margin{
+  margin-top:50px;
+}
+
+a.click-block {
+    color: #333333;
+    display: block;
+    font-weight: normal;
+}
+
+p.lead {
+    color: #777777;
+    font-family: "Proxima Nova","proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1.125em;
+    line-height: 1.3em;
+    margin-top: -0.3125em;
+  }
+span.title {
+    display: block;
+    font-family: "Proxima Nova","proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1.3125em;
+    margin-bottom: 10px;
+}
+span.normal-text {
+    display: block;
+    font-size: 0.875em;
+    line-height: 21px;
+    margin-bottom: 15px;
+}
+
+.light {
+    font-weight: 200 !important;
+}
+
+.centered-text {
+    text-align: center;
+}
+
+.zurb-footer-top .property h3 {
+    color: #FFFFFF;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.zurb-footer-top .property h4 {
+    color: #FFFFFF;
+    font-size: 1.25em;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+
+.zurb-footer-top .global {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.zurb-footer-top .property p, .zurb-footer-top .property li, .zurb-footer-top .property a {
+    color: #FFFFFF;
+    font-size: 13px;
+    line-height: 21px;
+}
+
+
+.zurb-footer-top .property .learn-links, .zurb-footer-top .property .support-links, .zurb-footer-top .property .connect-links {
+    background: url("http://zurb.com/assets/icons/footer-top-icons-1795ef65511f8d44f3f6c4a1a10a772b.png") no-repeat scroll center 0 rgba(0, 0, 0, 0);
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+    height: 220px;
+    margin-bottom: 30px;
+    padding: 50px 0 0;
+}
+
+.zurb-footer-top.bg-blue {
+    background: none repeat scroll 0 0 #2DAEBF;
+}
+.zurb-footer-top {
+    color: #FFFFFF;
+    font-family: "Proxima Nova","proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+    padding: 40px 0;
+}
+.zurb-footer-top .property {
+    text-align: center;
+}
+
+.zurb-footer-top .global .footer-link-block span {
+    color: #FFFFFF;
+    display: block;
+    font-size: 0.75em;
+    line-height: 18px;
+    padding-left: 40px;
+}
+
+
+.zurb-footer-top .global .footer-link-block {
+    font-weight: normal;
+}
+
+.zurb-footer-bottom {
+    background: none repeat scroll 0 0 #333333;
+    padding: 24px 0 10px;
+}
+
+
+.zurb-footer-bottom ul.zurb-links {
+    display: inline-block;
+    margin: 0;
+}
+
+.zurb-footer-bottom ul.zurb-links li a {
+    color: #666666;
+    padding: 3px 6px;
+}
+
+.zurb-footer-bottom ul.zurb-links li {
+    font-family: "Proxima Nova Condensed","proxima-nova-condensed","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 0.875em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+.zurb-footer-bottom p.copyright {
+    color: #666666;
+    font-size: 0.75em;
+    margin: 6px 0 0;
 }
