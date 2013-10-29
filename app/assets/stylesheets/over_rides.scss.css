@@ -1,15 +1,35 @@
-.main-header{
-  margin-top: 90px;
-  margin-bottom: 90px;
+.main-header.random-4 {
+    background: url("http://zurb.com/assets/zurb/background/home-4-a5b5e98f74d5b2483692a168a695c7a9.jpg") no-repeat scroll center center #FFFFFF;
 }
-.small-margin{
-  margin-top:50px;
+.main-header {
+    background-color: #23B9D1;
 }
 
+.main-header.home h1 {
+    font-size: 4em;
+    margin-bottom: 57px;
+    padding-top: 120px;
+}
+
+.main-header{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.small-bottom-margin{
+  margin-bottom:50px;
+}
+
+.small-top-margin{
+  margin-top:50px;
+}
 a.click-block {
     color: #333333;
     display: block;
     font-weight: normal;
+}
+
+p.small-text{
+    font-size: 80%;
 }
 
 p.lead {
@@ -39,6 +59,37 @@ span.normal-text {
 .centered-text {
     text-align: center;
 }
+
+p.title-text {
+    font-family: "Proxima Nova","proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: normal;
+    line-height: normal;
+    margin-bottom: 0;
+    padding-bottom: 14px;
+    padding-top: 14px;
+}
+.white-text {
+    color: #FFFFFF;
+}
+
+.interior-header p.title-text {
+    padding-top: 60px;
+}
+
+.interior-header.green {
+    background: none repeat scroll 0 0 #B8D30B;
+}
+.interior-header {
+    height: 120px;
+}
+.interior-header {
+    background: none repeat scroll 0 0 #2DAEBF;
+}
+
+
+
 
 .zurb-footer-top .property h3 {
     color: #FFFFFF;
@@ -126,4 +177,9 @@ span.normal-text {
     color: #666666;
     font-size: 0.75em;
     margin: 6px 0 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #333333;
+    font-family: "Proxima Nova","proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
